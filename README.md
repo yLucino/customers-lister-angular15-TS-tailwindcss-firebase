@@ -1,27 +1,64 @@
-# CustomersListerAngular15
+# Project CRUD Customers Lister In AngularTS | Tailwindcss | NodeJS | Firebase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+## Índice
 
-## Development server
+- [Instalação](#instalação)
+- [Autor](#autor)
+- [Tecnologias](#tecnologias)
+- [Referências](#referências)
+- [Agradecimentos](#agradecimentos)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação
 
-## Code scaffolding
+Instruções para instalar e configurar o projeto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+# Clone o repositório
+git clone https://github.com/yLucino/customers-lister-angularTS-tailwindcss-node-firebase.git
 
-## Build
+# Navegue até o diretório do projeto
+cd frontend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Instale as dependências
+npm install
 
-## Running unit tests
+# Navegue até o diretório do projeto
+cd backend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Instale as dependências
+npm install
 
-## Running end-to-end tests
+# Inicie os servidores
+cd frontend
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+cd backend
+npm start
+```
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Luciano Chiodini - yLucino
+<div> 
+  <a href
+="https://www.instagram.com/luci_ano_chi/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:chiodiniluciano@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/luciano-chiodini-6a35092b3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
+
+## Tecnologias
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Angular" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg">
+  <img align="center" alt="Firebase" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg">
+  <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Tailwindcss" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
+</div>
+
+## Referências
+
+## Agradecimentos
+
+Obrigado por visitar meu repositório! 🙂🫡

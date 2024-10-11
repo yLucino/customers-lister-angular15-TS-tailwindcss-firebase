@@ -1,0 +1,46 @@
+<app-header></app-header>
+<section class="flex flex-col items-center bg-gray-700 h-screen pt-20">
+  <h1 class="flex align-middle text-priblue p-4 bg-slate-50 rounded-full shadow-lg shadow-gray-800 mt-10 mb-28">
+    <mat-icon style="color: #005cbb;">lightbulb</mat-icon>
+    Add your customers by entering the necessary information.
+  </h1>
+
+  <div class="flex justify-evenly w-screen">
+    <form class="flex flex-col p-10 pt-5 rounded-xl bg-slate-50 w-96" onsubmit="">
+      <h1 class="text-center text-priblue mb-4 underline">Add your customers here!</h1>
+      <mat-form-field>
+        <mat-label>Full name</mat-label>
+        <input type="text" matInput placeholder="Enter name" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>E-mail</mat-label>
+        <input type="email" matInput placeholder="email@example.com" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Telephone</mat-label>
+        <span matTextPrefix>+55 &nbsp;</span>
+        <input type="tel" matInput placeholder="(47) 9 9123-4567" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Url profile photo</mat-label>
+        <input type="url" matInput placeholder="http://urlprofilephoto-example" required>
+      </mat-form-field>
+      <button type="submit" mat-flat-button extended>
+        Save
+      </button>
+    </form>
+
+    <div class="flex flex-col p-10 pt-5 rounded-xl bg-slate-50 w-96">
+      <h1 class="text-center text-priblue mb-4 underline">See your customers list here!</h1>
+
+      <ul>
+        <!-- <li *ngFor="let profile of profile">
+          <img [src]="profile.urlphoto" alt="{{profile.name}}">
+          <h4>{{profile.name}}</h4>
+          <p>{{profile.email}}</p>
+          <p>{{profile.tel}}</p>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</section>
